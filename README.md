@@ -1,7 +1,7 @@
 # Encrypted 7Zip file extraction to blob storage
 This repo is an Azure Function that can extract encrypted 7Zip files to Azure Storage Blobs.
 
-This uses [SevenZipExtractor}(https://github.com/adoconnection/SevenZipExtractor) to perform the extraction process.
+This uses [SevenZipExtractor](https://github.com/adoconnection/SevenZipExtractor) to perform the extraction process.
 
 The Function has an HTTP trigger and can be tested with an HTTP request:
 
