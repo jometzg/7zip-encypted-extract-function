@@ -1,0 +1,22 @@
+### Test the function
+POST http://localhost:7144/api/Test
+Content-Type: application/json
+
+{
+    "SourceContainerName": "source",
+    "ZipBlobName": "testpass3.zip",
+    "Password": "testpassword",  
+    "DestinationContainerName": "destination"
+}
+
+### Send a request to unzip the following password protected file
+### using SevenZipExtractor library https://github.com/adoconnection/SevenZipExtractor
+POST http://localhost:7144/api/Extract7Zip
+Content-Type: application/json
+
+{
+    "SourceContainerName": "source",
+    "ZipBlobName": "testpass3.zip",
+    "Password": "testpassword",  
+    "DestinationContainerName": "destination"
+}
