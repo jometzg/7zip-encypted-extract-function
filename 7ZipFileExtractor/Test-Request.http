@@ -20,3 +20,16 @@ Content-Type: application/json
     "Password": "testpassword",  
     "DestinationContainerName": "destination"
 }
+
+### Send a request to zip a blob folder with password protection
+### using SharpZipLib library https://github.com/icsharpcode/SharpZipLib
+POST http://localhost:7144/api/CreateZip
+Content-Type: application/json
+
+{
+    "SourceContainerName": "source",
+    "SourceFolderName": "tozip/",
+    "ZipBlobName": "testpass.zip",
+    "Password": "testpassword",  
+    "DestinationContainerName": "destination"
+}
