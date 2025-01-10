@@ -23,4 +23,16 @@ For the above to work, in development mode, create 2 containers in Emulated stor
 1. source - where you can upload an encrypted zip - it is suggested to use 7zip for this
 2. destination - where the extracted files will be created. Note that these will be in a folder of the same name as the zip file.
 
-This may be tested with {Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer)
+This may be tested with [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer)
+
+### Source zip file
+![alt text](./images/azure-storage-exp-source.png "Source zip file")
+
+### Destination folder
+![alt text](./images/azure-storage-exp-dest.png "Destination folder")
+
+### Destination files
+![alt text](./images/azure-storage-exp-dest-detail.png "Extracted files")
+
+
+
