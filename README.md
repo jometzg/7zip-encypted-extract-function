@@ -1,6 +1,7 @@
 # Encrypted 7Zip File Creation and Extraction to Blob Storage
 This repo is an Azure Function that can extract encrypted 7Zip files to Azure Storage Blobs.
 
+> Important
 > The underlying *SevenZipExtractor* library only works on Windows hosts, so this will require an Azure Function that uses a Windows host
 
 It can also encrypt an blob folder, encrypt it and put the zip in another blob container.
