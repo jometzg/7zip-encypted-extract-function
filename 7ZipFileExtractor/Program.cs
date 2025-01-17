@@ -9,7 +9,7 @@ var host = new HostBuilder()
     {
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
-        services.AddSingleton(new BlobServiceClient(Environment.GetEnvironmentVariable("AzureWebJobsStorage")));
+        services.AddSingleton(new BlobServiceClient(Environment.GetEnvironmentVariable("TargetStorage")));
     })
     .Build();
 
