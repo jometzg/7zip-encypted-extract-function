@@ -32,6 +32,11 @@ For the above to work, in development mode, create 2 containers in Emulated stor
 
 This may be tested with [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer)
 
+> Note:
+> The Function uses an environment variable "TargetStorage" that denotes the storage account it uses for the source and destination.
+> Add a setting for this in the environment variables section of the Functions configuration and use a storage account connection string. The storage account will need access keys to be enabled.
+> 
+
 ### Source zip file
 ![alt text](./images/azure-storage-exp-source.png "Source zip file")
 
